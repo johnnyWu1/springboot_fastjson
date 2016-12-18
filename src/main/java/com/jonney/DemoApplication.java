@@ -27,11 +27,12 @@ public class DemoApplication {
 	public static class BeanConfiguration {
 		protected BeanConfiguration() {
 		}
-
+		
 		@Bean
 		public FastJsonHttpMessageConverter fastJsonHttpMessageConverter() {
 			FastJsonHttpMessageConverter converter = new FastJsonHttpMessageConverter();
 			return converter;
 		}
+		
 	}
 }

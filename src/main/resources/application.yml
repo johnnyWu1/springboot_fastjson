@@ -10,11 +10,3 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-    
-#  http:
-#    converters:
-#      preferred-json-mapper: fastjson
-  http:
-    converters:
-      preferred-json-mapper: fastjson
-      
