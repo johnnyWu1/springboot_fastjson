@@ -19,14 +19,16 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jonney.dao.GirlRepository;
 import com.jonney.pojo.Girl;
 
+//@Api("userController相关api")
 @RestController
 public class GirlController {
 
 	Logger logger = LoggerFactory.getLogger(GirlController.class);
-
 	@Autowired
 	private GirlRepository girlRepository;
 
+	
+//	@ApiOperation("获取用户信息")
 	/**
 	 * 查询所有女生列表
 	 * 
